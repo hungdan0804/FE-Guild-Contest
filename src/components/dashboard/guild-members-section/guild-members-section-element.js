@@ -14,7 +14,7 @@ export const GuildMembersSectionContainer = styled.div`
 
 export const SectionTitle = styled.h3`
   color: #fff;
-  height: 300px;
+  height: 5%;
 
   text-decoration: none;
   font-size: 1rem;
@@ -32,6 +32,7 @@ export const SectionTitle = styled.h3`
 
   @media screen and (max-width: 320px) {
     font-size: 0.9rem;
+    height: 100px;
   }
 
   @media screen and (min-width: 1024px) {
@@ -42,6 +43,7 @@ export const SectionTitle = styled.h3`
 export const SliderContainer = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
 
   width: 90%;
   flex-grow: 1;
@@ -63,7 +65,7 @@ export const SliderTool = styled.div`
   align-items: flex-end;
 
   width: 90%;
-  height: 400px;
+  height: 420px;
 
   position: absolute;
 

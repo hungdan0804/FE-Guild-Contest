@@ -28,9 +28,6 @@ export const SectionTitle = styled.h3`
 
   padding: 20px 5px;
 
-  border: 0.2rem #111 solid;
-  border-radius: 10px;
-
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
     0 0 50px #fff;
