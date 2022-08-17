@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P";
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #111;
+}
+
+.App {
+  position: relative;
+
+  width: min(100vw, 1440px);
+
+  background-color: #111;
+}
+
+.active {
+  animation: visible 1.5s ease-in;
+}
+
+@keyframes visible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulsate {
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #03e3fc,
+      0 0 80px #03e3fc, 0 0 90px #03e3fc, 0 0 100px #03e3fc, 0 0 150px #03e3fc;
+  }
+  0% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #03e3fc,
+      0 0 45px #03e3fc, 0 0 55px #03e3fc, 0 0 70px #03e3fc, 0 0 80px #03e3fc;
+  }
+}
