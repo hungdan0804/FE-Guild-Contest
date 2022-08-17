@@ -23,10 +23,10 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   height: 80px;
-  width: min(90%, 900px);
+  width: min(100%, 1080px);
   z-index: 1;
 
   > * {
@@ -51,7 +51,7 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   text-align: center;
 
   @media screen and (max-width: 768px) {
@@ -87,7 +87,7 @@ export const NavLink = styled(LinkScroll)`
   animation: visible 1.5s ease-in-out forwards;
 
   @media screen and (max-width: 1024px) {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 `;
 
